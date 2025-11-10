@@ -44,7 +44,6 @@ next.config.ts
 globals.d.ts 
 postcss.config.mjs 
 tsconfig.json 
-package.json 
 package-lock.json 
 public 
 styles 
