@@ -48,7 +48,7 @@ const PropertyCard: React.FC<{ property: PropertyProps }> = ({ property }) => {
             <h4 className="font-semibold text-xl text-gray-900 truncate">{property.name}</h4>
             <p className="text-sm text-gray-500 mt-0.5">{property.address.city}, {property.address.country}</p>
           </div>
-          <div className="flex items-center space-x-1 bg-yellow-500 text-white px-2 py-0.5 rounded-full text-sm font-bold ml-4 flex-shrink-0">
+          <div className="flex items-center space-x-1 bg-yellow-500 text-white px-2 py-0.5 rounded-full text-sm font-bold ml-4 flexshrink-0">
             <Star size={14} fill="currentColor"/>
             <span>{property.rating.toFixed(2)}</span>
           </div>

@@ -31,18 +31,13 @@ yarn-error.log*
 .pnpm-debug.log*
 
 # env files (can opt-in for committing if needed)
-.env*
+
 
 # vercel
-.vercel
+
 
 # typescript
-*.tsbuildinfo
-next-env.d.ts
-eslint.config.mjs 
-next.config.ts 
-globals.d.ts 
-postcss.config.mjs  
+*.tsbuildinfo 
 public 
-styles 
-.env.local 
+
+ 
